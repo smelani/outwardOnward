@@ -1,0 +1,875 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+header {
+    width:100%;
+    background:black;
+    position: relative;
+}
+
+#header-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding:0 2%;
+    overflow:auto
+}
+
+#logo {
+    width:25%;
+    margin-top:2%;
+    float:left;
+}
+nav {
+    width:50%;
+    float:right;
+    margin-top: 1.5%;
+    font-weight:500;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    width:20%;
+    float:left;
+    padding:2% 0;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+
+#menu-icon{
+    color:white;
+    text-decoration: none;
+    font-size: 5em;
+    position: absolute;
+    top:0;
+    right:4%; 
+    display: none;
+}
+
+/*UTILITY NAV*/
+nav .account i{
+    width:8%;
+    text-align: center;
+    color:#c5d92d;
+}
+nav .search {
+    color:white;
+    margin-left:2%;
+}
+nav input {
+    margin-left:1%;
+    padding-top:.5%
+}
+
+nav .social {
+    width:30%;
+    float:right
+}
+
+nav .social i{
+    color:white;
+    width:25%;
+    text-align: center;
+}
+
+
+/*SLIDER*/
+#slider {
+    background-image: url(../images/forestfog.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide {
+    width:100%;
+}
+.slide section {
+    width:50%;
+    padding-top:5%;
+    margin:5% auto 0;
+    position:relative;
+}
+.slide h1, #banner h1{
+    width:100%;
+    text-align: center;
+    color:#c5d92d;
+    font-size: 5em;
+    line-height: 1.5em;
+    font-family: 'Rock Salt', cursive;
+}
+
+.slide h2 {
+    color:black;
+    text-align: center;
+    font-weight: 400;
+    padding:2% 0;
+}
+
+.slide a{
+    display:block;
+    width:24%;
+    margin:5% auto 25%;
+    padding:1% 2%;
+    text-decoration: none;
+    text-align: center;
+    background:rgba(197, 217, 45, .7);
+    color:black;
+    border: 1px solid black;
+    font-size:1.25em;
+    font-weight: 500;
+}
+
+/*BANNER*/
+#banner {
+    position:relative;
+}
+
+#banner img {
+    width:100%;
+}
+
+#banner h1{
+    width:100%;
+    text-align: center;
+    color:#c5d92d;
+    font-size: 5em;
+    line-height: 1.5em;
+    font-family: 'Rock Salt', cursive;
+    position:absolute;
+    top:25%;
+}
+
+/*MIDDLE*/
+#middle a, .middle-content a {
+    display:block;
+    width:36%;
+    margin:5% auto;
+    padding:2% 4%;
+    text-decoration: none;
+    text-align: center;
+    background:rgba(197, 217, 45, .7);
+    color:black;
+    border: 1px solid black;
+    font-size:1.25em;
+    font-weight: 500;
+    clear:both;
+}
+#middle-left {
+    width:50%;
+    float:left;
+    background-image:url(../images/backpack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#middle-left section, #middle-right section{
+    padding:25% 20% 40%;
+}
+
+#middle h1, .middle-content h1{
+    font-size: 3em;
+    color:white;
+    text-align: center;
+}
+
+#middle-left h2 {
+    color:black;
+    text-align: center;
+    font-weight: 400;
+    padding:2% 0;
+}
+
+#middle-right {
+    width:50%;
+    float:right;
+    background-image:url(../images/fire2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#middle-right h2, .middle-layer1 h2 {
+    color:white;
+    text-align: center;
+    font-weight: 400;
+    padding:2% 0;
+}
+
+.middle-layer1 {
+    width:100%;
+    clear:both;
+    background-image:url(../images/tent.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.middle-layer1 section {
+    width:50%;
+    margin:0 auto;
+    padding:10% 0 20%
+}
+.middle-content {
+    max-width: 980px;
+    margin:0 auto;
+    overflow: auto;
+    padding:3% 2% 5%;
+}
+.middle-content .left {
+    width:50%;
+    float:left;
+    padding-bottom:6%;
+}
+.middle-content .right {
+    width:50%;
+    float:right;
+    padding-bottom:6%;
+}
+#sleep {
+    background-image: url(../images/sleep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shelter{
+    background-image: url(../images/shelter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cook{
+    background-image: url(../images/cooking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#light{
+    background-image: url(../images/light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle-content h1 {
+    margin:15% 0 1%;
+}
+.middle-content p {
+    font-size:1.3em;
+    line-height: 1.5em;
+    padding:0 2% 3%;
+}
+.middle-content h2 {
+    color:black;
+    font-weight: 500;
+    padding:2% 0 2% 2%;
+}
+
+/*PRODUCT CATEGORY PAGE*/
+/*Aside*/
+#filters{
+    width:25%;
+    min-height:610px;
+    float:left;
+    margin-left:2%;
+    color:white;
+    background:black;
+}
+
+#filters h2 {
+    padding:1% 3%;
+    margin:0;
+    border-top:solid white 1px;
+    color:white;
+}
+
+#filters .heading {
+    color: #c5d92d;
+    padding-top:1.5%;
+}
+
+aside section{
+  margin-left:8%;
+  margin-bottom:8%;
+}
+
+#filters h3{
+    padding:7% 0 5% 0;
+}
+
+label {
+    font-weight:normal;
+}
+
+.fa-star {
+    color: gold;
+}
+
+input.color {
+    margin:2% 2% 2% 0;
+}
+
+#shelters, #product-detail {
+    width:70%;
+    float:right;
+}
+
+.shelter {
+    width:30%;
+    display:inline-block;
+    margin:0 1%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+.shelter img {
+    width:100%;
+    float:left;
+}
+
+#shelters .shelter .product{
+    background:none;
+    border:none;
+}
+.shelter h2 {
+    margin-bottom:4%;
+    padding-bottom: 2%;
+}
+
+.shelter p{
+    font-size: 1.1em;
+    font-weight:normal;
+    margin-top:2%;
+    padding-bottom:1%;
+}
+
+#shelters .shelter a{
+    display:inline;
+    margin:0 2%;
+    padding:2% 4%;
+    text-decoration: none;
+    text-align: center;
+    background:rgba(197, 217, 45, .7);
+    color:black;
+    border: 1px solid black;
+    font-size:1em;
+    font-weight: 500;
+}
+
+/*PRODUCT DETAILS PAGE*/
+#product-detail {
+    position:relative;
+}
+
+#product-detail img {
+    width:100%;
+    float:left;
+}
+
+/*for zoom*/
+.detail {
+    display:block;
+    overflow: hidden;
+    width:100%
+}
+
+#product-detail img.treetent {
+    width:30%;
+    margin:0 1%;
+}
+
+#product-detail ul {
+    list-style: none;
+    margin-left:2%;
+    padding-bottom: 10%;
+    width:50%;
+    float:left;
+}
+
+#product-detail li {
+    padding:.5%;
+}
+
+.buttons {
+    width:48%;
+    float: right;
+}
+
+#product-detail .buttons a{
+    width:72%;
+    padding:6% 10%;
+}
+
+#product-detail a {
+    margin-top:5%;
+}
+
+/*CART*/
+#middle h1.heading {
+    color: black;
+    text-align: left;
+    margin:0 0 0 2%;
+}
+
+#cart-product {
+    margin-top:8%;
+    overflow: auto;
+}
+
+#cart-product section {
+    border-bottom:2px solid black;
+}
+
+#cart-product h3 {
+    display:inline;
+    margin-right:9.2%;
+}
+
+h3#name {
+    margin-right:40%;
+}
+
+#cart-product img {
+    width:20%;
+    float:left;
+    margin-top:2%;
+}
+
+section#cart-details  {
+    float:right;
+    width:76%;
+    border-bottom: none;
+    margin-top:2%;
+}
+
+#cart-details p{
+    width:30%;
+    font-size:1em;
+    padding-bottom: 3%;
+
+}
+
+#cart-details h3 {
+    font-size:1.5em;
+    margin-left:1.5%;
+    
+}
+
+h3#price {
+    margin-left:10%;
+}
+
+h3#itemtotal {
+    margin-left:6%;
+}
+
+#cart-details .remove {
+    width:10%;
+    padding:1% 2%;
+    margin:1% 0 3% 2%;
+}
+
+#cart-footer {
+    margin-bottom:5%;
+    border-top:2px solid black;
+    overflow: auto;
+    clear:both;
+}
+
+#returnpolicy {
+    width:30%;
+    margin-top:2%;
+    float:left;
+}
+
+#returnpolicy p{
+    font-size:1em;
+    padding:2% 0;
+}
+
+#summary {
+    margin-top:2%;
+    width:40%;
+    background:rgba(197, 217, 45, .6);
+    float:right;
+    padding:2%;
+}
+
+#summary h3 {
+    float:left;
+    width:50%;
+    padding:1% 0;
+}
+#summary h3.number {
+    float:right;
+    text-align:right;
+}
+#summary h3.last {
+    border-top:2px solid black;
+}
+
+#cart a, #cart-footer a{
+    width:22%;
+    margin:2% 0 0 68%;
+    padding:2% 4%;
+    clear:both;
+}
+
+/*LOGIN*/
+#login {
+    width:50%;
+    margin:0 auto;
+    background:rgba(197, 217, 45, .6);
+    text-align: center;
+    padding:4% 1%;
+}
+
+#login label{
+    width:20%;
+    text-align: right;
+}
+
+#login input{
+    width:20%;
+    margin-bottom:2%;
+}
+
+#middle #link {
+    display:block;
+    margin:0 auto;
+    padding: 0;
+    text-decoration:underline;
+    text-align: left;
+    background:none;
+    color:black;
+    border: none;
+    font-size:.75em;
+    font-weight: 400;
+}
+
+#middle #login a{
+    width:55%;
+}
+
+/*CUSTOMER INFO*/
+#customer-info {
+    overflow: auto;
+}
+
+#customer-info section {
+    width:45%;
+    background:rgba(197, 217, 45, .6);
+    padding:2%;
+    
+}
+
+section#ship {
+    float:left;
+}
+
+section#bill {
+    float:right;
+    padding-bottom:4.2%;
+}
+
+section#card {
+    width:96%;
+    clear:both;
+    margin-top:2.1%;
+    float:left;
+    margin-bottom:2.1%;
+    overflow: auto;
+}
+
+#card form {
+    width:45%;
+    float:left;
+}
+
+#customer-info label {
+    float: left;
+    width:40%;
+    text-align: right;
+    margin-right: 1%;
+    font-weight:bold;
+}
+
+#customer-info input {
+    width:40%;
+    margin:1% 0;
+}
+
+input#month, input#year, input#code {
+     width:15%;
+}
+
+#customer-info h4 {
+    font-weight:normal;
+    font-style: italic;
+    font-size: .8em;
+}
+
+h4.security {
+    display:inline;
+    margin-right:1%;
+}
+
+#shipcheck {
+    display:inline;
+    margin-left:9%;
+}
+
+img#securitycode {
+    width:40%;
+    float:right;
+    margin-right:5%;
+}
+.bar {
+    width:100%;
+    margin-bottom: 1%;
+}
+
+/*ORDER REVIEW*/
+#orderinfo {
+    border-top:2px solid black;
+    margin-top:2.1%;
+}
+
+#orderinfo h2{
+    margin:0;
+    padding:1% 0 2% 3%;
+}
+
+#orderinfo h3 {
+    font-weight:normal;
+    padding-left:5%;
+}
+
+#orderinfo section {
+    width:29%;
+    height:200px;
+    background:rgba(197, 217, 45, .6);
+    padding:2% 1%;
+    padding-bottom:4%;
+    margin:2% 1.15%;
+}
+
+#infoship, #infobill{
+    float: left;
+}
+
+#infocard {
+    float:right;
+}
+
+/*FOOTER*/
+footer {
+    width:100%;
+    background:black;
+    padding: 5% 0 3%;
+}
+#footer-content {
+    max-width: 980px;
+    margin:0 auto;
+    padding:0 2%;
+    overflow:auto;
+    color:white;
+}
+footer .left {
+    width:20%;
+    float:left;
+    margin-right:2%;
+}
+
+footer li {
+    list-style: none;
+    margin-left:18%;
+    padding-bottom: 5%;
+    padding-left:5%;
+    border-left:solid white 1px;
+}
+
+footer img {
+    width:100%;
+}
+
+footer .left p{
+    font-size:1.1em;
+    line-height: 1.5em;
+    margin-top:5%;
+}
+
+footer .left i {
+    width:22%;
+    text-align: right;
+    margin-top:10%;
+}
+
+footer .right {
+    width:32%;
+    float:right;
+}
+
+.embed-container { 
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.copyright {
+    width:100%;
+    padding-top:5%;
+    clear:both;
+    text-align: center;
+}
+
+/*RESPONSIVE STYLES*/
+@media screen and (max-width: 1024px){
+    body {
+        font-size:80%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size:70%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        
+    }
+    
+    #slider, .search, aside { 
+        display:none;
+    }
+    
+    #middle-left, #middle-right, #shelters, #product-detail {
+        float:none;
+        width:100%;
+    }
+    
+    #logo {
+        display: block;
+        float:none;
+        width:40%;
+        margin:2% auto;
+        padding:2% 0;
+    }
+    
+    #menu-icon{
+        display:block;
+    }
+    
+    nav {
+        width:100%;
+        float:none;
+        display:none;
+        font-size:1.2em;
+    }
+    
+    nav ul li a{
+        display:block;
+        width:100%;
+        font-size: 1.5em;
+        float:none;
+        text-align: center;
+        border-top: 1px white solid;
+    }
+    
+    #banner h1 {
+        top:20%;
+    }
+    
+    #sleep, #cook, #shelter, #light {
+        width:100%;
+    }
+    
+    #shelters .shelter a {
+        display:block;
+        width:80%;
+        margin:5% 0;
+    }
+    #cart-product h3 {
+        margin:0 5%;
+    }
+    
+    #cart-product img {
+        margin-left: 4%;
+    }
+    
+    #cart-product #cart-details {
+        width:100%;
+        float:left;
+    }
+    
+    #cart-details .remove {
+        width:20%;
+    }
+    
+    #returnpolicy, #summary {
+        width:45%;
+    }
+    
+    #cart a,#cart-footer a {
+        width:40%;
+        margin-left:51%;
+    }
+    
+    #login{
+        width:80%;
+    }
+    
+    #customer-info #ship, #customer-info #bill, #customer-info #card {
+        float: none;
+        width:100%;
+        margin-bottom: 5%;
+    }
+    #card form{
+        width:60%;
+    }
+    
+    #card img {
+        width:35%;
+    }
+    
+    #orderinfo section {
+        width:80%;
+        float:none;
+        margin:2.5% auto;
+    }
+    footer .left {
+        width:31%;
+        
+    }
+    
+    footer .left ul {
+        width:40%;
+    }
+    
+    footer .right {
+        width:100%;
+        margin-top: 10%;
+    }
+}

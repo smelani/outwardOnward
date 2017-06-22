@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outward & Onward | Products | Shelters | Product Detail</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!--Main CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    <!--Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+    
+    <!-- bx Slider CSS -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    
+   <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/bf85faea57.js"></script>
+    
+    
+</head>
+<body>
+    
+    <!--ZOOM Plug in JS-->
+        <script src='js/jquery.zoom.js'></script>
+        <script>
+		$(document).ready(function(){
+			$('.detail').zoom();
+		});
+	   </script>
+    
+    <!--Begin header-->
+    <header>
+        <!--Begin header-content-->
+        <div id="header-content">
+        
+            <!--Toggle menu js for responsive-->
+            <script src="js/toggle.js"></script>
+            
+            <a href="ooindex.html"><img id="logo" src="images/o&o-logo.png" alt="logo"></a>
+            
+            <!--hamburger for responsive menu-->
+            <a href="#" id="menu-icon"><span>&#8801;</span></a>
+            
+            <!--Begin utility nav-->
+            <nav>
+                <ul>
+                    <li class="search"><i class="fa fa-search" aria-hidden="true"></i><input type="text"></li>
+                    
+                    <li class="account"><i class="fa fa-user fa-2x" aria-hidden="true"></i><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-list fa-2x" aria-hidden="true"></i></li>
+                    
+                    <li class="social"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i><i class="fa fa-instagram fa-2x" aria-hidden="true"></i><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><i class="fa fa-yelp fa-2x" aria-hidden="true"></i></li>
+                    
+                
+                </ul>
+            </nav>
+            <!--End utility nav-->
+            
+            <!--Begin nav-->
+            <nav>
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="products.html">PROUCTS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!--End nav-->
+            
+            
+        </div>
+        <!--End header-content-->
+    </header>    
+    <!--End header-->
+    
+    <!--Begin middle-->
+    <div id="middle">
+        <div class="middle-content">
+            
+            <aside id="filters">
+                <h2 class="heading">FILTERS</h2>
+                <h2>Shelters</h2>
+                <section>
+                    <h3>Price</h3>
+                    <input type="checkbox"> <label>Under $99.00</label><br>                        <input type="checkbox"> <label>$100.00 - $199.00</label><br>
+                    <input type="checkbox"> <label>$200.00 - $299.00</label><br>
+                    <input type="checkbox"> <label>$300.00 and Above</label><br>
+                        
+                    <h3>Capacity</h3>
+                    <input type="checkbox"> <label>2 Person</label><br>
+                    <input type="checkbox"> <label>3 - 4 Pesron</label><br>
+                    <input type="checkbox"> <label>5 - 6 Person</label><br>                        <input type="checkbox"> <label>7 and Above Person</label><br>
+                        
+                    <h3>Rating</h3>
+                    <input type="checkbox"><label>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                    </label><br>
+                    <input type="checkbox"><label>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </label><br>
+                    <input type="checkbox"><label>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </label><br>
+                    <input type="checkbox"><label>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </label><br>
+                        
+                    <h3>Color</h3>
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <br>
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                    <input type="checkbox" class="color">
+                        
+                </section>
+                <h2>Lighting</h2>
+                <h2>Eating</h2>
+                <h2>Sleeping</h2>
+
+            </aside>
+            
+    
+            <div id="product-detail">
+                <h2>Really Cool Tree Tent</h2>
+                    
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                    
+                <span class="detail"><img src="images/maintent.jpg" alt="tent6"></span>
+                
+                <img class="treetent" src="images/treetent.jpg" alt="treetent">
+                
+                <img class="treetent" src="images/treetent2.jpg" alt="treetent2">
+                
+                <img class="treetent" src="images/treetent3.jpg" alt="treetent3">
+                    
+                <h2>Price $449.99</h2>
+                <h2>Description</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+                    
+                <h2>Details</h2>
+                <ul>
+                    <li>Capacity: 3 Person</li>
+                    <li>Dimentions: 2.6 x 4.2 x 4.2m / 9 x 14 x 14ft </li>
+                    <li>Floor Size: Approximately 5m / 55 sqft </li>
+                    <li>Peak Height: 3-4ft </li>
+                    <li>Doors: 4</li>
+                    <li>Weight: 6.5kg / 14lbs (once </li>
+                    <li>Seasons: 4</li>
+                    <li>Material: Tear resistant insect mesh</li>
+                    <li>Color: Green and White </li>
+                </ul>
+                
+                <section class="buttons">
+                    <a href="cart.html">ADD TO CART</a>
+
+                    <a href="">ADD TO WISHLIST</a>
+                    
+                    <a href="shelters.html">BACK TO SHELTERS</a>
+                </section>     
+            </div>
+        
+        </div>
+    </div>
+    <!--End middle-->
+    
+    <!--Begin footer-->
+    <footer>
+        <!--Begin footer-content-->
+        <div id="footer-content">
+            <section class="left">
+                <img src="images/o&o-logo.png" alt="logo">
+                <p>Bacon ipsum dolor amet cupim meatball bacon, shankle turducken fatback flank ham chuck tongue cow. Turkey chicken tail beef capicola. Fatback kielbasa chuck ham short loin.</p>
+                
+            </section>
+            <section class="left">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>PRODUCTS</li>
+                    <li>BLOG</li>
+                    <li>LOCATION</li>
+                    <li>CONTACT</li>
+                    <li>CAREERS</li>
+                </ul>
+                
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><i class="fa fa-instagram fa-2x" aria-hidden="true"></i><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><i class="fa fa-yelp fa-2x" aria-hidden="true"></i>
+                
+            </section>
+            
+            <section class="left">
+                <ul>
+                    <li>SHOPPING CART</li>
+                    <li>ACCOUNT</li>
+                    <li>WISH LIST</li>
+                    <li>ACCOUNT SUPPORT</li>
+                    <li>ORDER STATUS</li>
+                    <li>RETURNS</li>
+                </ul>
+            </section>
+            
+            <section class="right">
+                <div class='embed-container'>
+                    <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172133.42782496856!2d-122.4763328782821!3d47.614762364556746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C+WA!5e0!3m2!1sen!2sus!4v1495066636572' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
+                </div>
+            </section>
+        
+            <section>
+                <p class="copyright">Copyright &copy;2017  -  All Rights Reserved</p>
+            </section>
+        </div>
+        <!--End footer-content-->
+    </footer>
+    <!--End footer-->
+    
+</body>
+</html>
